@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.RegisterFragment"
+    android:gravity="center_horizontal"
+    android:layout_margin="8dp">
+
+    <EditText
+        android:id="@+id/emailET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hintEmailET"
+        android:textSize="22sp"
+        android:inputType="textWebEmailAddress"
+        tools:ignore="Autofill"
+        android:layout_marginTop="400dp"/>
+
+    <EditText
+        android:id="@+id/passET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hintPassET"
+        android:inputType="textPassword"
+        android:textSize="22sp"
+        tools:ignore="Autofill" />
+
+    <EditText
+        android:id="@+id/confirmPassET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hintConfirmPassET"
+        android:inputType="textPassword"
+        android:textSize="22sp"
+        tools:ignore="Autofill" />
+
+    <Button
+        android:id="@+id/registerBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textRegisterBTN"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/alreadyTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textAlreadyTV"
+        android:textSize="14sp"
+        android:textColor="#837F7F"
+        android:textStyle="italic"/>
+</LinearLayout>

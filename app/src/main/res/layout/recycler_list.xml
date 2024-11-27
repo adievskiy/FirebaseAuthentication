@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/letterNameTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textLetterTV"
+        android:textSize="22sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/letterBodyTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textLetterBodyTV"
+        android:layout_below="@id/letterNameTV"
+        android:textSize="18sp"/>
+</RelativeLayout>

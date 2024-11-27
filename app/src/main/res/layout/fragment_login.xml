@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.LoginFragment"
+    android:gravity="center_horizontal">
+
+    <EditText
+        android:id="@+id/emailET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hintEmailET"
+        android:textSize="22sp"
+        android:inputType="textWebEmailAddress"
+        tools:ignore="Autofill"
+        android:layout_marginTop="450dp"/>
+
+    <EditText
+        android:id="@+id/passET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hintPassET"
+        android:inputType="textPassword"
+        android:textSize="22sp"
+        tools:ignore="Autofill" />
+
+
+    <Button
+        android:id="@+id/confirmBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textConfirmBTN"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/notRegisteredTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textNotRegisteredTV"
+        android:textSize="14sp"
+        android:textColor="#837F7F"
+        android:textStyle="italic"/>
+
+</LinearLayout>

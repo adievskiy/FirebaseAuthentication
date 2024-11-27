@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">FirebaseAuthentication</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hintEmailET">Введите email</string>
+    <string name="hintPassET">Введите пароль</string>
+    <string name="hintConfirmPassET">Введите пароль еще раз</string>
+    <string name="textConfirmBTN">Войти</string>
+    <string name="textAlreadyTV">Уже зарегистрированы?</string>
+    <string name="textNotRegisteredTV">Ещё не зарегистрированы?</string>
+    <string name="textRegisterBTN">Зарегистрироваться</string>
+    <string name="textLetterTV">Письмо 1</string>
+    <string name="textLetterBodyTV">Тело письма 1</string>
+</resources>
