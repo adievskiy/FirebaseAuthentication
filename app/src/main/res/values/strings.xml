@@ -11,4 +11,9 @@
     <string name="textRegisterBTN">Зарегистрироваться</string>
     <string name="textLetterTV">Письмо 1</string>
     <string name="textLetterBodyTV">Тело письма 1</string>
+    <string name="hintInputLetterET">Пиши сюда</string>
+    <string name="textSendBTN">Отправить</string>
+    <string name="textReadBTN">Прочитать</string>
+    <string name="hintInputHeaderET">Заголовок сюда</string>
+    <string name="hintInputAddressET">Адрес сюда</string>
 </resources>

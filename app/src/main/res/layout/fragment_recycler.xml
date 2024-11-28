@@ -1,14 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ui.RecyclerFragment">
 
+    <EditText
+        android:id="@+id/inputHeaderET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hintInputHeaderET"
+        tools:ignore="Autofill,TextFields"/>
+
+    <EditText
+        android:id="@+id/inputLetterET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hintInputLetterET"
+        android:layout_below="@id/inputHeaderET"
+        tools:ignore="Autofill,TextFields" />
+
+    <Button
+        android:id="@+id/sendBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/inputLetterET"
+        android:text="@string/textSendBTN"
+        android:textSize="18sp"
+        android:layout_alignParentEnd="true"/>
+
+    <Button
+        android:id="@+id/readBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sendBTN"
+        android:text="@string/textReadBTN"
+        android:textSize="18sp"
+        android:layout_alignParentEnd="true"/>
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/letterListRV"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:listitem="@layout/recycler_list"/>
+        tools:listitem="@layout/recycler_list"
+        android:layout_below="@id/readBTN"/>
 
-</FrameLayout>
+</RelativeLayout>
